@@ -7,20 +7,20 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: mediroute-pages
   cancel-in-progress: false
 
 jobs:
-  publish:
+  package:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      artifact_id: ${{ steps.upload.outputs.artifact_id }}
     steps:
       - name: Checkout compiled website
         uses: actions/checkout@v6
@@ -29,9 +29,40 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload compiled website
+        id: upload
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
+  publish:
+    needs: package
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for the uploaded Pages artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_ID: ${{ needs.package.outputs.artifact_id }}
+        run: |
+          test -n "$PAGES_ARTIFACT_ID"
+          for attempt in {1..12}; do
+            if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" \
+                --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id' |
+                grep -Fxq "$PAGES_ARTIFACT_ID"; then
+              # Pages resolves the artifact through a separate index.
+              sleep 15
+              exit 0
+            fi
+            sleep 5
+          done
+          echo '::error::The uploaded Pages artifact did not become available.'
+          exit 1
       - name: Publish website
         id: deployment
         uses: actions/deploy-pages@v4
