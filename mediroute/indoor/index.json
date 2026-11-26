@@ -1,0 +1,17 @@
+{
+  "generatedFrom": "gen_indoor_maps.py",
+  "note": "示範佈局，非實際醫院平面圖。",
+  "licence": "building footprints © OpenStreetMap contributors (ODbL 1.0)",
+  "mapCount": 1,
+  "maps": [
+    {
+      "slug": "kai_tak_hospital",
+      "file": "kai_tak_hospital.json",
+      "nameZh": "啟德醫院",
+      "building": "腫瘤科大樓",
+      "levelCount": 18,
+      "floorHeight": 3.333333,
+      "roomCount": 15
+    }
+  ]
+}

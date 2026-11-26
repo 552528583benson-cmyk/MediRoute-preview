@@ -1,0 +1,525 @@
+{
+  "generatedFrom": "OpenStreetMap via Overpass API",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "siteCount": 43,
+  "buildingCount": 337,
+  "hospitals": [
+    {
+      "file": "north_district_hospital.geojson",
+      "slug": "north_district_hospital",
+      "nameZh": "北區醫院",
+      "count": 4,
+      "bounds": [
+        114.123703,
+        22.495991,
+        114.126056,
+        22.49752
+      ]
+    },
+    {
+      "file": "prince_of_wales_hospital.geojson",
+      "slug": "prince_of_wales_hospital",
+      "nameZh": "威爾斯親王醫院",
+      "count": 17,
+      "bounds": [
+        114.20027,
+        22.378082,
+        114.203639,
+        22.381171
+      ]
+    },
+    {
+      "file": "queen_elizabeth_hospital.geojson",
+      "slug": "queen_elizabeth_hospital",
+      "nameZh": "伊利沙伯醫院",
+      "count": 24,
+      "bounds": [
+        114.17241,
+        22.307177,
+        114.176865,
+        22.310424
+      ]
+    },
+    {
+      "file": "queen_mary_hospital.geojson",
+      "slug": "queen_mary_hospital",
+      "nameZh": "瑪麗醫院",
+      "count": 15,
+      "bounds": [
+        114.130361,
+        22.267564,
+        114.133434,
+        22.272689
+      ]
+    },
+    {
+      "file": "cheshire_home_chung_hom_kok.geojson",
+      "slug": "cheshire_home_chung_hom_kok",
+      "nameZh": "舂磡角慈氏護養院",
+      "count": 1,
+      "bounds": [
+        114.197259,
+        22.211293,
+        114.197708,
+        22.212507
+      ]
+    },
+    {
+      "file": "grantham_hospital.geojson",
+      "slug": "grantham_hospital",
+      "nameZh": "葛量洪醫院",
+      "count": 8,
+      "bounds": [
+        114.172399,
+        22.250991,
+        114.174475,
+        22.25191
+      ]
+    },
+    {
+      "file": "maclehose_medical_rehabilitation_centre.geojson",
+      "slug": "maclehose_medical_rehabilitation_centre",
+      "nameZh": "麥理浩復康院",
+      "count": 5,
+      "bounds": [
+        114.123544,
+        22.269524,
+        114.125413,
+        22.270749
+      ]
+    },
+    {
+      "file": "pamela_youde_nethersole_eastern_hospital.geojson",
+      "slug": "pamela_youde_nethersole_eastern_hospital",
+      "nameZh": "東區尤德夫人那打素醫院",
+      "count": 17,
+      "bounds": [
+        114.23497,
+        22.268058,
+        114.238159,
+        22.272011
+      ]
+    },
+    {
+      "file": "ruttonjee_hospital.geojson",
+      "slug": "ruttonjee_hospital",
+      "nameZh": "律敦治醫院",
+      "count": 9,
+      "bounds": [
+        114.174271,
+        22.274048,
+        114.175789,
+        22.276715
+      ]
+    },
+    {
+      "file": "st_john_hospital.geojson",
+      "slug": "st_john_hospital",
+      "nameZh": "長洲醫院",
+      "count": 3,
+      "bounds": [
+        114.030479,
+        22.207806,
+        114.031803,
+        22.208448
+      ]
+    },
+    {
+      "file": "tang_shiu_kin_hospital.geojson",
+      "slug": "tang_shiu_kin_hospital",
+      "nameZh": "鄧肇堅醫院",
+      "count": 6,
+      "bounds": [
+        114.177163,
+        22.275029,
+        114.178578,
+        22.276102
+      ]
+    },
+    {
+      "file": "the_duchess_of_kent_children_s_hospital_at_sandy_bay.geojson",
+      "slug": "the_duchess_of_kent_children_s_hospital_at_sandy_bay",
+      "nameZh": "大口環根德公爵夫人兒童醫院",
+      "count": 4,
+      "bounds": [
+        114.123081,
+        22.270984,
+        114.125055,
+        22.272036
+      ]
+    },
+    {
+      "file": "tsan_yuk_hospital.geojson",
+      "slug": "tsan_yuk_hospital",
+      "nameZh": "贊育醫院",
+      "count": 4,
+      "bounds": [
+        114.143728,
+        22.285451,
+        114.145446,
+        22.286872
+      ]
+    },
+    {
+      "file": "tung_wah_eastern_hospital.geojson",
+      "slug": "tung_wah_eastern_hospital",
+      "nameZh": "東華東院",
+      "count": 2,
+      "bounds": [
+        114.19033,
+        22.275151,
+        114.19105,
+        22.275745
+      ]
+    },
+    {
+      "file": "tung_wah_group_of_hospitals_fung_yiu_king_hospital.geojson",
+      "slug": "tung_wah_group_of_hospitals_fung_yiu_king_hospital",
+      "nameZh": "東華三院馮堯敬醫院",
+      "count": 3,
+      "bounds": [
+        114.124719,
+        22.270645,
+        114.125762,
+        22.271964
+      ]
+    },
+    {
+      "file": "tung_wah_hospital.geojson",
+      "slug": "tung_wah_hospital",
+      "nameZh": "東華醫院",
+      "count": 7,
+      "bounds": [
+        114.146214,
+        22.284336,
+        114.147681,
+        22.285789
+      ]
+    },
+    {
+      "file": "wong_chuk_hang_hospital.geojson",
+      "slug": "wong_chuk_hang_hospital",
+      "nameZh": "黃竹坑醫院",
+      "count": 2,
+      "bounds": [
+        114.175565,
+        22.250679,
+        114.176131,
+        22.251279
+      ]
+    },
+    {
+      "file": "hong_kong_buddhist_hospital.geojson",
+      "slug": "hong_kong_buddhist_hospital",
+      "nameZh": "香港佛教醫院",
+      "count": 8,
+      "bounds": [
+        114.18824,
+        22.334593,
+        114.189684,
+        22.335969
+      ]
+    },
+    {
+      "file": "hong_kong_children_s_hospital.geojson",
+      "slug": "hong_kong_children_s_hospital",
+      "nameZh": "香港兒童醫院",
+      "count": 2,
+      "bounds": [
+        114.207692,
+        22.314798,
+        114.209945,
+        22.316799
+      ]
+    },
+    {
+      "file": "hong_kong_eye_hospital.geojson",
+      "slug": "hong_kong_eye_hospital",
+      "nameZh": "香港眼科醫院",
+      "count": 3,
+      "bounds": [
+        114.184178,
+        22.323982,
+        114.185511,
+        22.326269
+      ]
+    },
+    {
+      "file": "kai_tak_hospital.geojson",
+      "slug": "kai_tak_hospital",
+      "nameZh": "啟德醫院",
+      "count": 1,
+      "bounds": [
+        114.206641,
+        22.316696,
+        114.207785,
+        22.31777
+      ]
+    },
+    {
+      "file": "kowloon_hospital.geojson",
+      "slug": "kowloon_hospital",
+      "nameZh": "九龍醫院",
+      "count": 39,
+      "bounds": [
+        114.178764,
+        22.32222,
+        114.183741,
+        22.326246
+      ]
+    },
+    {
+      "file": "kwong_wah_hospital.geojson",
+      "slug": "kwong_wah_hospital",
+      "nameZh": "廣華醫院",
+      "count": 10,
+      "bounds": [
+        114.170778,
+        22.313774,
+        114.172514,
+        22.316062
+      ]
+    },
+    {
+      "file": "our_lady_of_maryknoll_hospital.geojson",
+      "slug": "our_lady_of_maryknoll_hospital",
+      "nameZh": "聖母醫院",
+      "count": 3,
+      "bounds": [
+        114.196012,
+        22.344814,
+        114.197523,
+        22.346053
+      ]
+    },
+    {
+      "file": "tung_wah_group_of_hospitals_wong_tai_sin_hospital.geojson",
+      "slug": "tung_wah_group_of_hospitals_wong_tai_sin_hospital",
+      "nameZh": "東華三院黃大仙醫院",
+      "count": 4,
+      "bounds": [
+        114.196074,
+        22.346101,
+        114.197664,
+        22.347439
+      ]
+    },
+    {
+      "file": "haven_of_hope_hospital.geojson",
+      "slug": "haven_of_hope_hospital",
+      "nameZh": "靈實醫院",
+      "count": 14,
+      "bounds": [
+        114.255681,
+        22.312918,
+        114.257812,
+        22.315962
+      ]
+    },
+    {
+      "file": "tseung_kwan_o_hospital.geojson",
+      "slug": "tseung_kwan_o_hospital",
+      "nameZh": "將軍澳醫院",
+      "count": 5,
+      "bounds": [
+        114.269558,
+        22.317251,
+        114.270752,
+        22.318672
+      ]
+    },
+    {
+      "file": "united_christian_hospital.geojson",
+      "slug": "united_christian_hospital",
+      "nameZh": "基督教聯合醫院",
+      "count": 7,
+      "bounds": [
+        114.226411,
+        22.32158,
+        114.228669,
+        22.323594
+      ]
+    },
+    {
+      "file": "caritas_medical_centre.geojson",
+      "slug": "caritas_medical_centre",
+      "nameZh": "明愛醫院",
+      "count": 9,
+      "bounds": [
+        114.151496,
+        22.340253,
+        114.155928,
+        22.342541
+      ]
+    },
+    {
+      "file": "kwai_chung_hospital.geojson",
+      "slug": "kwai_chung_hospital",
+      "nameZh": "葵涌醫院",
+      "count": 8,
+      "bounds": [
+        114.132096,
+        22.341681,
+        114.134651,
+        22.343565
+      ]
+    },
+    {
+      "file": "north_lantau_hospital.geojson",
+      "slug": "north_lantau_hospital",
+      "nameZh": "北大嶼山醫院",
+      "count": 2,
+      "bounds": [
+        113.938386,
+        22.281488,
+        113.940156,
+        22.282767
+      ]
+    },
+    {
+      "file": "princess_margaret_hospital.geojson",
+      "slug": "princess_margaret_hospital",
+      "nameZh": "瑪嘉烈醫院",
+      "count": 15,
+      "bounds": [
+        114.13339,
+        22.339403,
+        114.135543,
+        22.34219
+      ]
+    },
+    {
+      "file": "yan_chai_hospital.geojson",
+      "slug": "yan_chai_hospital",
+      "nameZh": "仁濟醫院",
+      "count": 5,
+      "bounds": [
+        114.118584,
+        22.369197,
+        114.120151,
+        22.370706
+      ]
+    },
+    {
+      "file": "alice_ho_miu_ling_nethersole_hospital.geojson",
+      "slug": "alice_ho_miu_ling_nethersole_hospital",
+      "nameZh": "雅麗氏何妙齡那打素醫院",
+      "count": 8,
+      "bounds": [
+        114.17393,
+        22.457203,
+        114.17567,
+        22.459329
+      ]
+    },
+    {
+      "file": "bradbury_hospice.geojson",
+      "slug": "bradbury_hospice",
+      "nameZh": "白普理寧養中心",
+      "count": 1,
+      "bounds": [
+        114.214881,
+        22.398215,
+        114.215272,
+        22.39873
+      ]
+    },
+    {
+      "file": "cheshire_home_shatin.geojson",
+      "slug": "cheshire_home_shatin",
+      "nameZh": "沙田慈氏護養院",
+      "count": 17,
+      "bounds": [
+        114.215273,
+        22.39789,
+        114.218123,
+        22.399153
+      ]
+    },
+    {
+      "file": "shatin_hospital.geojson",
+      "slug": "shatin_hospital",
+      "nameZh": "沙田醫院",
+      "count": 5,
+      "bounds": [
+        114.21223,
+        22.397879,
+        114.214097,
+        22.400165
+      ]
+    },
+    {
+      "file": "tai_po_hospital.geojson",
+      "slug": "tai_po_hospital",
+      "nameZh": "大埔醫院",
+      "count": 4,
+      "bounds": [
+        114.172838,
+        22.460813,
+        114.175184,
+        22.462281
+      ]
+    },
+    {
+      "file": "castle_peak_hospital.geojson",
+      "slug": "castle_peak_hospital",
+      "nameZh": "青山醫院",
+      "count": 10,
+      "bounds": [
+        113.971361,
+        22.407907,
+        113.974627,
+        22.411264
+      ]
+    },
+    {
+      "file": "pok_oi_hospital.geojson",
+      "slug": "pok_oi_hospital",
+      "nameZh": "博愛醫院",
+      "count": 2,
+      "bounds": [
+        114.04089,
+        22.444523,
+        114.042221,
+        22.446124
+      ]
+    },
+    {
+      "file": "siu_lam_hospital.geojson",
+      "slug": "siu_lam_hospital",
+      "nameZh": "小欖醫院",
+      "count": 2,
+      "bounds": [
+        113.974259,
+        22.409587,
+        113.975176,
+        22.410486
+      ]
+    },
+    {
+      "file": "tin_shui_wai_hospital.geojson",
+      "slug": "tin_shui_wai_hospital",
+      "nameZh": "天水圍醫院",
+      "count": 2,
+      "bounds": [
+        113.9951,
+        22.457884,
+        113.996732,
+        22.458931
+      ]
+    },
+    {
+      "file": "tuen_mun_hospital.geojson",
+      "slug": "tuen_mun_hospital",
+      "nameZh": "屯門醫院",
+      "count": 20,
+      "bounds": [
+        113.974768,
+        22.405854,
+        113.977281,
+        22.410592
+      ]
+    }
+  ],
+  "missing": []
+}
