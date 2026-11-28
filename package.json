@@ -1,0 +1,26 @@
+{
+  "name": "mediroute-preview",
+  "version": "1.0.0",
+  "description": "香港醫療服務資訊 App 的課程原型，供組員在 Android 和 iPhone 上試用。可搜尋機構、按服務及地區篩選、查看詳情與地圖、收藏地點，並切換語言及主題。",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/552528583benson-cmyk/MediRoute-preview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/552528583benson-cmyk/MediRoute-preview/issues"
+  },
+  "homepage": "https://github.com/552528583benson-cmyk/MediRoute-preview#readme",
+  "dependencies": {
+    "compression": "^1.8.2",
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
