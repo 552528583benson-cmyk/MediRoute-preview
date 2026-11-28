@@ -1,6 +1,5 @@
+// The server is based on Node.js with Express.
 const express = require('express');
-const cors = require('cors');
-const compression = require('compression');
 const fs = require('fs/promises');
 const path = require('path');
 
@@ -10,13 +9,29 @@ const ROOT_DIR = __dirname;
 const HOSPITALS_DIR = path.join(ROOT_DIR, 'mediroute', 'hospitals');
 const INDOOR_DIR = path.join(ROOT_DIR, 'mediroute', 'indoor');
 
+// CORS is for allowing requests from specific origins, methods, and headers.
+const cors = require('cors');
+/**
+ * Example CORS configuration:
+ * const corsOptions = {
+    origin: 'http://example.com',
+    methods: 'GET,POST',
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    optionsSuccessStatus: 200 // For legacy browsers
+    };
+
+    app.use(cors(corsOptions));
+ */
+
+app.use(cors());
+// Compression is for reducing response sizes for faster load times
+const compression = require('compression');
+app.use(compression());
 // Middleware
 app.use((req, res, next) => {
     console.log(req.method, req.url);
     next();
 });
-app.use(compression());
-app.use(cors());
 app.use(express.json());
 
 // Ensure Service Worker is not aggressively cached by intermediate proxies
